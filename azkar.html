@@ -1,0 +1,1504 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="أذكار متنوعة مع عداد إلكتروني، صدقة جارية عن روح سيف نبيل صديقي رحمه الله عليه.">
+
+    <meta name="theme-color" content="#1f4d3b">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="صدقة جارية عن روح سيف نبيل صديقي رحمه الله عليه">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="صدقة جارية عن روح سيف نبيل 🤍">
+    <meta property="og:description"
+        content="صدقة جارية عن روح سيف نبيل رحمه الله عليه. ادعُ له، واقرأ الأذكار والأدعية.">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:locale" content="ar_AR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="صدقة جارية عن روح سيف نبيل 🤍">
+    <meta name="twitter:description"
+        content="صدقة جارية عن روح سيف نبيل رحمه الله عليه. ادعُ له، واقرأ الأذكار والأدعية.">
+    <meta name="twitter:image" content="assets/images/og-image.jpg">
+
+    <title>الأذكار | صدقة جارية عن روح سيف نبيل 🤍</title>
+
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Tailwind -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    fontFamily: {
+
+                        cairo: ["Cairo", "sans-serif"],
+
+                        amiri: ["Amiri", "serif"]
+
+                    },
+
+                    colors: {
+
+                        primary: "#1f4d3b",
+
+                        primaryDark: "#163a2d",
+
+                        gold: "#c6a15b",
+
+                        cream: "#f8f6ef"
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: #1f4d3b;
+            color: white;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.86);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .counter-pop {
+            animation: counterPop 0.15s ease;
+        }
+
+        @keyframes counterPop {
+
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.18);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+
+        }
+
+        .fade-in {
+            animation: fadeIn 0.4s ease both;
+        }
+
+        @keyframes fadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body class="font-cairo bg-cream text-gray-800">
+
+
+    <!-- =====================================================
+                            NAVBAR
+    ====================================================== -->
+
+    <header class="fixed top-0 right-0 left-0 z-50">
+
+        <nav class="glass border-b border-gray-200/70">
+
+            <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="h-20 flex items-center justify-between">
+
+
+                    <!-- Logo -->
+
+                    <a href="index.html" class="flex items-center gap-3 min-w-0">
+
+                        <div
+                            class="shrink-0 w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-primary text-white flex items-center justify-center text-xl">
+
+                            ۞
+
+                        </div>
+
+
+                        <div>
+
+                            <h1 class="font-bold text-primary text-sm sm:text-base">
+
+                                صدقة جارية
+
+                            </h1>
+
+                            <p class="text-[10px] sm:text-xs text-gray-500">
+
+                                عن روح سيف نبيل رحمه الله عليه
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Desktop -->
+
+                    <div class="hidden md:flex items-center gap-5 lg:gap-8 text-sm">
+
+                        <a href="index.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            الرئيسية
+
+                        </a>
+
+                        <a href="duas.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            الأدعية
+
+                        </a>
+
+                        <a href="azkar.html"
+                            class="text-primary font-bold">
+
+                            الأذكار
+
+                        </a>
+
+                        <a href="about.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            عنه
+
+                        </a>
+
+                        <a href="index.html#pray"
+                            class="bg-primary text-white px-5 py-2.5 rounded-full hover:bg-primaryDark transition">
+
+                            ادعُ له 🤍
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Mobile -->
+
+                    <button id="menuBtn"
+                        aria-label="فتح القائمة"
+                        class="md:hidden w-10 h-10 rounded-xl bg-gray-100 text-primary text-xl flex items-center justify-center">
+
+                        ☰
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Mobile Menu -->
+
+            <div id="mobileMenu"
+                class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg">
+
+                <div class="px-4 sm:px-6 py-5 flex flex-col gap-2">
+
+                    <a href="index.html"
+                        class="px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-50">
+
+                        الرئيسية
+
+                    </a>
+
+                    <a href="duas.html"
+                        class="px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-50">
+
+                        الأدعية
+
+                    </a>
+
+                    <a href="azkar.html"
+                        class="px-4 py-3 rounded-xl bg-green-50 text-primary font-bold">
+
+                        الأذكار
+
+                    </a>
+
+                    <a href="about.html"
+                        class="px-4 py-3 rounded-xl text-gray-600 hover:bg-gray-50">
+
+                        عنه
+
+                    </a>
+
+                    <a href="index.html#pray"
+                        class="mt-2 bg-primary text-white text-center py-3 rounded-xl">
+
+                        🤲 ادعُ له
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+                            HERO
+    ====================================================== -->
+
+    <section class="relative pt-32 pb-14 sm:pt-36 sm:pb-20 overflow-hidden">
+
+        <div
+            class="absolute -top-32 -right-32 w-72 h-72 rounded-full bg-green-200/30 blur-3xl">
+        </div>
+
+        <div
+            class="absolute -bottom-32 -left-32 w-72 h-72 rounded-full bg-yellow-200/30 blur-3xl">
+        </div>
+
+
+        <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+
+
+            <div
+                class="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-yellow-100 text-2xl mb-5">
+
+                📿
+
+            </div>
+
+
+            <p class="text-gold font-bold text-sm sm:text-base mb-3">
+
+                الأذكار
+
+            </p>
+
+
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-relaxed">
+
+                اذكر الله واحتسب الأجر
+
+            </h2>
+
+
+            <p
+                class="mt-5 text-sm sm:text-base text-gray-500 leading-8 max-w-2xl mx-auto">
+
+                اختر الذكر الذي تريد، وردده بطمأنينة،
+                واستخدم العداد لمتابعة عدد مرات الذكر.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+                        CATEGORY FILTER
+    ====================================================== -->
+
+    <section class="pb-8">
+
+        <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div id="categoryButtons"
+                class="flex flex-wrap justify-center gap-2 sm:gap-3">
+
+                <button data-category="all"
+                    class="category-btn active px-4 py-2.5 rounded-full bg-primary text-white text-xs sm:text-sm font-bold transition">
+
+                    الكل
+
+                </button>
+
+                <button data-category="morning"
+                    class="category-btn px-4 py-2.5 rounded-full bg-white border border-gray-200 text-gray-600 text-xs sm:text-sm font-bold hover:border-primary hover:text-primary transition">
+
+                    أذكار الصباح
+
+                </button>
+
+                <button data-category="evening"
+                    class="category-btn px-4 py-2.5 rounded-full bg-white border border-gray-200 text-gray-600 text-xs sm:text-sm font-bold hover:border-primary hover:text-primary transition">
+
+                    أذكار المساء
+
+                </button>
+
+                <button data-category="general"
+                    class="category-btn px-4 py-2.5 rounded-full bg-white border border-gray-200 text-gray-600 text-xs sm:text-sm font-bold hover:border-primary hover:text-primary transition">
+
+                    أذكار عامة
+
+                </button>
+
+                <button data-category="for-deceased"
+                    class="category-btn px-4 py-2.5 rounded-full bg-white border border-gray-200 text-gray-600 text-xs sm:text-sm font-bold hover:border-primary hover:text-primary transition">
+
+                    للمتوفى
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+                        AZKAR LIST
+    ====================================================== -->
+
+    <main class="pb-20 sm:pb-24">
+
+        <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div id="azkarContainer"
+                class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+
+
+                <!-- ZEKR 1 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        سبحان الله
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ZEKR 2 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        الحمد لله
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ZEKR 3 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        الله أكبر
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ZEKR 4 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        لا إله إلا الله
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ZEKR 5 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        أستغفر الله وأتوب إليه
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ZEKR 6 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="general">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            ذكر
+
+                        </span>
+
+                        <span class="text-gray-300">
+                            📿
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[100px] flex items-center justify-center">
+
+                        اللهم صل وسلم وبارك على نبينا محمد ﷺ
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm transition">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MORNING ZEKR 1 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="morning">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            أذكار الصباح
+
+                        </span>
+
+                        <span>
+                            🌅
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-xl sm:text-2xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        أصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MORNING ZEKR 2 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="morning">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            أذكار الصباح
+
+                        </span>
+
+                        <span>
+                            🌅
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-xl sm:text-2xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        اللهم بك أصبحنا، وبك أمسينا، وبك نحيا، وبك نموت، وإليك النشور.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENING ZEKR 1 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="evening">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            أذكار المساء
+
+                        </span>
+
+                        <span>
+                            🌙
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-xl sm:text-2xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENING ZEKR 2 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in"
+                    data-category="evening">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            أذكار المساء
+
+                        </span>
+
+                        <span>
+                            🌙
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-xl sm:text-2xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        اللهم بك أمسينا، وبك أصبحنا، وبك نحيا، وبك نموت، وإليك المصير.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOR DECEASED 1 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in md:col-span-2"
+                    data-category="for-deceased">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            دعاء للمتوفى
+
+                        </span>
+
+                        <span>
+                            🤍
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        اللهم اغفر له وارحمه، وعافه واعفُ عنه، وأكرم نُزله، ووسع مدخله، واغسله بالماء والثلج والبرد، ونقّه من الخطايا كما نقيت الثوب الأبيض من الدنس.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOR DECEASED 2 -->
+
+                <article
+                    class="zekr-card bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg transition fade-in md:col-span-2"
+                    data-category="for-deceased">
+
+                    <div class="flex items-center justify-between mb-5">
+
+                        <span
+                            class="text-xs font-bold text-primary bg-green-50 px-3 py-1.5 rounded-full">
+
+                            دعاء للمتوفى
+
+                        </span>
+
+                        <span>
+                            🤍
+                        </span>
+
+                    </div>
+
+                    <p
+                        class="zekr-text font-amiri text-2xl sm:text-3xl leading-[2] text-center min-h-[120px] flex items-center justify-center">
+
+                        اللهم اجعل قبره روضةً من رياض الجنة، وافتح له بابًا من أبواب الجنة، واجعله من أهل الفردوس الأعلى.
+
+                    </p>
+
+                    <div
+                        class="mt-6 pt-5 border-t border-gray-100 flex items-center justify-between gap-3">
+
+                        <span class="counter text-2xl font-bold text-primary">
+                            0
+                        </span>
+
+                        <button
+                            class="count-button bg-primary text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-primaryDark active:scale-95 transition">
+
+                            اضغط للذكر 🤍
+
+                        </button>
+
+                        <button
+                            class="reset-button text-gray-400 hover:text-red-500 text-sm">
+
+                            تصفير
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- Empty State -->
+
+            <div id="emptyState" class="hidden text-center py-16">
+
+                <div class="text-4xl mb-4">
+                    📿
+                </div>
+
+                <p class="text-gray-500">
+
+                    لا توجد أذكار في هذا القسم حاليًا.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =====================================================
+                            CTA
+    ====================================================== -->
+
+    <section class="py-16 sm:py-20 bg-primary text-white">
+
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+
+            <div class="text-4xl mb-5">
+                🤍
+            </div>
+
+            <h2 class="font-amiri text-3xl sm:text-4xl">
+
+                لا تنسَ سيف نبيل من صالح دعائك
+
+            </h2>
+
+            <p class="mt-4 text-green-100 text-sm sm:text-base leading-8">
+
+                اللهم اغفر له وارحمه، وأسكنه فسيح جناتك،
+                واجعل هذا العمل في ميزان حسناته.
+
+            </p>
+
+            <a href="duas.html"
+                class="inline-flex mt-7 bg-white text-primary px-7 py-3.5 rounded-full font-bold hover:scale-105 transition">
+
+                🤲 قراءة الأدعية
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+                            FOOTER
+    ====================================================== -->
+
+    <footer class="bg-gray-950 text-gray-400">
+
+        <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <div>
+
+                    <div class="flex items-center gap-3">
+
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center">
+
+                            ۞
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-white font-bold">
+
+                                صدقة جارية
+
+                            </h3>
+
+                            <p class="text-xs text-gray-500">
+
+                                عن روح سيف نبيل رحمه الله عليه
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="text-white font-bold mb-4">
+
+                        روابط
+
+                    </h3>
+
+                    <div class="flex flex-col gap-3 text-sm">
+
+                        <a href="index.html"
+                            class="hover:text-white transition">
+
+                            الرئيسية
+
+                        </a>
+
+                        <a href="duas.html"
+                            class="hover:text-white transition">
+
+                            الأدعية
+
+                        </a>
+
+                        <a href="azkar.html"
+                            class="hover:text-white transition">
+
+                            الأذكار
+
+                        </a>
+
+                        <a href="about.html"
+                            class="hover:text-white transition">
+
+                            عنه
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="text-white font-bold mb-4">
+
+                        دعاء
+
+                    </h3>
+
+                    <p class="font-amiri text-xl leading-[2]">
+
+                        اللهم اغفر له وارحمه،
+                        وأسكنه فسيح جناتك.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="mt-10 pt-6 border-t border-gray-800 text-center">
+
+                <p class="font-amiri text-lg text-white">
+
+                    رحمه الله رحمةً واسعة 🤍
+
+                </p>
+
+                <p class="mt-2 text-xs text-gray-600">
+
+                    اللهم اجعلها صدقةً جاريةً لا تنقطع
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+                         JAVASCRIPT
+    ====================================================== -->
+
+    <script>
+
+        /* =================================================
+                         MOBILE MENU
+        ================================================== */
+
+        const menuBtn =
+            document.getElementById("menuBtn");
+
+        const mobileMenu =
+            document.getElementById("mobileMenu");
+
+
+        menuBtn.addEventListener("click", () => {
+
+            mobileMenu.classList.toggle("hidden");
+
+            menuBtn.innerText =
+                mobileMenu.classList.contains("hidden")
+                    ? "☰"
+                    : "✕";
+
+        });
+
+
+        mobileMenu
+            .querySelectorAll("a")
+            .forEach(link => {
+
+                link.addEventListener("click", () => {
+
+                    mobileMenu.classList.add("hidden");
+
+                    menuBtn.innerText = "☰";
+
+                });
+
+            });
+
+
+
+        /* =================================================
+                        COUNTERS
+        ================================================== */
+
+        const zekrCards =
+            document.querySelectorAll(".zekr-card");
+
+
+        zekrCards.forEach(card => {
+
+            let count = 0;
+
+            const countButton =
+                card.querySelector(".count-button");
+
+            const resetButton =
+                card.querySelector(".reset-button");
+
+            const counter =
+                card.querySelector(".counter");
+
+            countButton.addEventListener(
+                "click",
+                () => {
+
+                    count++;
+
+                    counter.innerText =
+                        count;
+
+                    counter.classList.remove(
+                        "counter-pop"
+                    );
+
+                    void counter.offsetWidth;
+
+                    counter.classList.add(
+                        "counter-pop"
+                    );
+
+                }
+            );
+
+
+            resetButton.addEventListener(
+                "click",
+                () => {
+
+                    count = 0;
+
+                    counter.innerText = "0";
+
+                }
+            );
+
+        });
+
+
+
+        /* =================================================
+                       CATEGORY FILTER
+        ================================================== */
+
+        const categoryButtons =
+            document.querySelectorAll(
+                ".category-btn"
+            );
+
+
+        const emptyState =
+            document.getElementById(
+                "emptyState"
+            );
+
+
+        categoryButtons.forEach(button => {
+
+            button.addEventListener(
+                "click",
+                () => {
+
+                    const category =
+                        button.dataset.category;
+
+
+                    /* Active button */
+
+                    categoryButtons.forEach(btn => {
+
+                        btn.classList.remove(
+                            "active",
+                            "bg-primary",
+                            "text-white"
+                        );
+
+                        btn.classList.add(
+                            "bg-white",
+                            "border",
+                            "border-gray-200",
+                            "text-gray-600"
+                        );
+
+                    });
+
+
+                    button.classList.add(
+                        "active",
+                        "bg-primary",
+                        "text-white"
+                    );
+
+
+                    button.classList.remove(
+                        "bg-white",
+                        "border",
+                        "border-gray-200",
+                        "text-gray-600"
+                    );
+
+
+                    /* Filter */
+
+                    let visibleCount = 0;
+
+
+                    zekrCards.forEach(card => {
+
+                        const cardCategory =
+                            card.dataset.category;
+
+
+                        if (
+                            category === "all" ||
+                            cardCategory === category
+                        ) {
+
+                            card.classList.remove(
+                                "hidden"
+                            );
+
+                            visibleCount++;
+
+                        }
+
+                        else {
+
+                            card.classList.add(
+                                "hidden"
+                            );
+
+                        }
+
+                    });
+
+
+                    /* Empty state */
+
+                    if (visibleCount === 0) {
+
+                        emptyState.classList.remove(
+                            "hidden"
+                        );
+
+                    }
+
+                    else {
+
+                        emptyState.classList.add(
+                            "hidden"
+                        );
+
+                    }
+
+                }
+            );
+
+        });
+
+    </script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+

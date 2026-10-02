@@ -1,0 +1,706 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="صفحة تعريفية عن صدقة جارية عن روح سيف نبيل صديقي رحمه الله عليه، نسأل الله أن يجعلها في ميزان حسناته.">
+
+    <meta name="theme-color" content="#1f4d3b">
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="صدقة جارية عن روح سيف نبيل صديقي رحمه الله عليه">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="صدقة جارية عن روح سيف نبيل 🤍">
+    <meta property="og:description"
+        content="صدقة جارية عن روح سيف نبيل رحمه الله عليه. ادعُ له، واقرأ الأذكار والأدعية.">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:locale" content="ar_AR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="صدقة جارية عن روح سيف نبيل 🤍">
+    <meta name="twitter:description"
+        content="صدقة جارية عن روح سيف نبيل رحمه الله عليه. ادعُ له، واقرأ الأذكار والأدعية.">
+    <meta name="twitter:image" content="assets/images/og-image.jpg">
+
+    <title>عنه | صدقة جارية عن روح سيف نبيل 🤍</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        amiri: ['Amiri', 'serif'],
+                    },
+
+                    colors: {
+                        primary: '#1f4d3b',
+                        primaryDark: '#163a2d',
+                        gold: '#c6a15b',
+                        cream: '#f8f6ef',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: #1f4d3b;
+            color: white;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .fade-up {
+            animation: fadeUp 0.8s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+
+<body class="bg-cream text-gray-800 font-cairo">
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="fixed top-0 left-0 w-full z-50">
+
+        <nav class="glass shadow-sm">
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <div class="h-20 flex items-center justify-between">
+
+                    <!-- Logo -->
+
+                    <a href="index.html"
+                        class="flex items-center gap-3 group">
+
+                        <div
+                            class="w-11 h-11 rounded-full bg-primary text-white flex items-center justify-center text-xl shadow-md group-hover:scale-105 transition">
+
+                            ۞
+
+                        </div>
+
+                        <div class="hidden sm:block">
+
+                            <h1 class="font-bold text-primary">
+                                صدقة جارية
+                            </h1>
+
+                            <p class="text-xs text-gray-500">
+                                عن روح سيف نبيل رحمه الله عليه
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Desktop Menu -->
+
+                    <div class="hidden md:flex items-center gap-7 text-sm font-semibold">
+
+                        <a href="index.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            الرئيسية
+
+                        </a>
+
+                        <a href="duas.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            الأدعية
+
+                        </a>
+
+                        <a href="azkar.html"
+                            class="text-gray-600 hover:text-primary transition">
+
+                            الأذكار
+
+                        </a>
+
+                        <a href="about.html"
+                            class="text-primary">
+
+                            عنه
+
+                        </a>
+
+                        <a href="index.html#pray"
+                            class="bg-primary text-white px-5 py-2.5 rounded-full hover:bg-primaryDark transition shadow-md">
+
+                            ادعُ له 🤍
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Mobile Button -->
+
+                    <button
+                        id="menuBtn"
+                        class="md:hidden w-11 h-11 rounded-xl bg-primary text-white flex items-center justify-center text-xl">
+
+                        ☰
+
+                    </button>
+
+                </div>
+
+
+                <!-- Mobile Menu -->
+
+                <div id="mobileMenu"
+                    class="hidden md:hidden pb-5">
+
+                    <div class="flex flex-col gap-2">
+
+                        <a href="index.html"
+                            class="px-4 py-3 rounded-xl hover:bg-white transition">
+
+                            الرئيسية
+
+                        </a>
+
+                        <a href="duas.html"
+                            class="px-4 py-3 rounded-xl hover:bg-white transition">
+
+                            الأدعية
+
+                        </a>
+
+                        <a href="azkar.html"
+                            class="px-4 py-3 rounded-xl hover:bg-white transition">
+
+                            الأذكار
+
+                        </a>
+
+                        <a href="about.html"
+                            class="px-4 py-3 rounded-xl bg-white text-primary font-bold">
+
+                            عنه
+
+                        </a>
+
+                        <a href="index.html#pray"
+                            class="px-4 py-3 rounded-xl bg-primary text-white text-center">
+
+                            ادعُ له 🤍
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="pt-32 pb-16 px-4">
+
+            <div class="max-w-5xl mx-auto text-center fade-up">
+
+                <!-- Decorative Icon -->
+
+                <div
+                    class="w-20 h-20 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
+
+                    <span class="text-4xl text-primary">
+                        🤍
+                    </span>
+
+                </div>
+
+
+                <p class="text-gold font-semibold mb-3">
+
+                    بسم الله الرحمن الرحيم
+
+                </p>
+
+
+                <h2
+                    class="font-amiri text-4xl sm:text-5xl lg:text-6xl text-primary font-bold leading-tight mb-6">
+
+                    عنه رحمه الله
+
+                </h2>
+
+
+                <p
+                    class="max-w-2xl mx-auto text-gray-600 leading-8 text-base sm:text-lg">
+
+                    صفحة صغيرة نحفظ فيها ذكرى غالية،
+                    ونسأل الله أن يجعل كل دعاء وذكر يُقرأ هنا
+                    نورًا ورحمةً له.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MEMORIAL CARD ================= -->
+
+        <section class="px-4 pb-20">
+
+            <div class="max-w-5xl mx-auto">
+
+                <div
+                    class="bg-white rounded-3xl shadow-lg overflow-hidden">
+
+                    <div class="grid lg:grid-cols-2">
+
+
+                        <!-- Image Area -->
+
+                        <div
+                            class="min-h-[350px] lg:min-h-[500px] bg-gradient-to-br from-primary/10 to-gold/10 flex items-center justify-center p-8">
+
+                            <!--
+                                لاحقًا لو عندك صورة لسيف
+                                حطها هنا بدل الـ div ده
+                            -->
+
+                            <div
+                                class="w-full max-w-sm aspect-square rounded-3xl border-2 border-dashed border-primary/20 flex flex-col items-center justify-center text-center bg-white/50">
+
+                                <div class="text-6xl mb-5">
+                                    🤍
+                                </div>
+
+                                <p class="font-bold text-primary text-lg">
+
+                                    رحمه الله رحمةً واسعة
+
+                                </p>
+
+                                <p class="text-sm text-gray-500 mt-2">
+
+                                    يمكنك إضافة صورته هنا لاحقًا
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Text -->
+
+                        <div
+                            class="p-7 sm:p-10 lg:p-12 flex flex-col justify-center">
+
+                            <span
+                                class="inline-block w-fit px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6">
+
+                                ذكرى طيبة 🤍
+
+                            </span>
+
+
+                            <h3
+                                class="font-amiri text-3xl sm:text-4xl text-primary font-bold mb-6">
+
+                                رحم الله سيف نبيل
+
+                            </h3>
+
+
+                            <div
+                                class="space-y-5 text-gray-600 leading-8">
+
+                                <p>
+
+                                    رحم الله صديقي سيف نبيل رحمةً واسعة،
+                                    وأسكنه فسيح جناته، وجعل قبره روضةً
+                                    من رياض الجنة.
+
+                                </p>
+
+                                <p>
+
+                                    جعلنا هذا الموقع صدقةً جاريةً عن روحه،
+                                    نسأل الله أن ينتفع به كل من قرأ دعاءً
+                                    أو ذكرًا فيه.
+
+                                </p>
+
+                                <p>
+
+                                    ونسأل الله أن يجعل ثواب كل كلمة طيبة،
+                                    وكل ذكر، وكل دعاء يُقال هنا في ميزان
+                                    حسناته.
+
+                                </p>
+
+                            </div>
+
+
+                            <div
+                                class="mt-8 p-5 rounded-2xl bg-cream border border-primary/10">
+
+                                <p
+                                    class="font-amiri text-xl text-primary leading-9 text-center">
+
+                                    اللهم اغفر له وارحمه،
+                                    وعافه واعفُ عنه،
+                                    وأكرم نُزله،
+                                    ووسع مدخله،
+                                    واجعل الجنة داره ومستقره.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QURAN ================= -->
+
+        <section class="px-4 pb-20">
+
+            <div class="max-w-4xl mx-auto">
+
+                <div
+                    class="bg-primary rounded-3xl p-8 sm:p-12 text-center text-white shadow-xl">
+
+                    <div class="text-gold text-3xl mb-5">
+                        ﴿ ﴾
+                    </div>
+
+                    <p
+                        class="font-amiri text-3xl sm:text-4xl leading-[2]">
+
+                        وَقُل رَّبِّ ارْحَمْهُمَا
+                        كَمَا رَبَّيَانِي صَغِيرًا
+
+                    </p>
+
+                    <div class="w-16 h-px bg-gold mx-auto my-6"></div>
+
+                    <p class="text-white/80 text-sm">
+
+                        سورة الإسراء — الآية 24
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HIS MEMORY ================= -->
+
+        <section class="px-4 pb-20">
+
+            <div class="max-w-5xl mx-auto">
+
+                <div class="text-center mb-10">
+
+                    <p class="text-gold font-semibold mb-2">
+
+                        كلمات من القلب
+
+                    </p>
+
+                    <h2
+                        class="font-amiri text-4xl text-primary font-bold">
+
+                        سيبقى في القلب 🤍
+
+                    </h2>
+
+                </div>
+
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+
+                    <!-- Card -->
+
+                    <div
+                        class="bg-white rounded-2xl p-7 shadow-sm border border-gray-100 text-center">
+
+                        <div class="text-3xl mb-4">
+                            🌿
+                        </div>
+
+                        <h3 class="font-bold text-primary mb-3">
+
+                            الرحمة
+
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-7">
+
+                            نسأل الله أن يغمره برحمته التي وسعت كل شيء.
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- Card -->
+
+                    <div
+                        class="bg-white rounded-2xl p-7 shadow-sm border border-gray-100 text-center">
+
+                        <div class="text-3xl mb-4">
+                            🤲
+                        </div>
+
+                        <h3 class="font-bold text-primary mb-3">
+
+                            الدعاء
+
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-7">
+
+                            لا تنسوه من صالح دعائكم،
+                            فالدعاء أجمل ما نقدمه لمن رحلوا عنا.
+
+                        </p>
+
+                    </div>
+
+
+                    <!-- Card -->
+
+                    <div
+                        class="bg-white rounded-2xl p-7 shadow-sm border border-gray-100 text-center">
+
+                        <div class="text-3xl mb-4">
+                            🕊️
+                        </div>
+
+                        <h3 class="font-bold text-primary mb-3">
+
+                            الجنة
+
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-7">
+
+                            نسأل الله أن يجعله من أهل الفردوس الأعلى،
+                            وأن يجمعنا به في جنات النعيم.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DUA CTA ================= -->
+
+        <section class="px-4 pb-20">
+
+            <div
+                class="max-w-4xl mx-auto bg-white rounded-3xl shadow-md border border-primary/10 p-8 sm:p-12 text-center">
+
+                <div class="text-4xl mb-5">
+                    🤲
+                </div>
+
+                <h2
+                    class="font-amiri text-3xl sm:text-4xl font-bold text-primary mb-4">
+
+                    لا تنسَه من دعائك
+
+                </h2>
+
+                <p
+                    class="text-gray-600 leading-8 max-w-xl mx-auto mb-7">
+
+                    ادعُ له بما فتح الله عليك،
+                    لعل دعوة منك تكون سببًا في رحمةٍ تصل إليه.
+
+                </p>
+
+
+                <div
+                    class="flex flex-col sm:flex-row gap-3 justify-center">
+
+                    <a href="duas.html"
+                        class="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-primary text-white font-semibold hover:bg-primaryDark transition shadow-md">
+
+                        🤍 اقرأ الأدعية
+
+                    </a>
+
+
+                    <a href="azkar.html"
+                        class="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-primary/10 text-primary font-semibold hover:bg-primary/15 transition">
+
+                        📿 ابدأ الأذكار
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-primaryDark text-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+            <div
+                class="flex flex-col md:flex-row items-center justify-between gap-6">
+
+                <div class="text-center md:text-right">
+
+                    <h3 class="font-bold text-lg mb-2">
+
+                        صدقة جارية عن روح سيف نبيل 🤍
+
+                    </h3>
+
+                    <p class="text-white/60 text-sm">
+
+                        اللهم اجعله صدقةً جاريةً في ميزان حسناته.
+
+                    </p>
+
+                </div>
+
+
+                <div class="text-white/50 text-sm text-center">
+
+                    اللهم ارحم موتانا وموتى المسلمين
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="border-t border-white/10 mt-8 pt-6 text-center text-white/40 text-xs">
+
+                © 2026 — صدقة جارية عن روح سيف نبيل رحمه الله عليه
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        const menuBtn = document.getElementById("menuBtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        menuBtn.addEventListener("click", () => {
+
+            mobileMenu.classList.toggle("hidden");
+
+        });
+
+
+        // Close mobile menu after clicking a link
+
+        mobileMenu.querySelectorAll("a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                mobileMenu.classList.add("hidden");
+
+            });
+
+        });
+
+    </script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
